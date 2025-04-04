@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profilgalleri</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Secret profiles</h1>
+        <input type="search" id="search-input" placeholder="Search profile...">
+    </header>
+    <main id="gallery"></main>
+    <div id="card-template" style="display: none;">
+        <div class="profile-card">
+          <img class="profile-img" src="" alt="Profilbild">
+          <h3 class="profile-name"></h3>
+          <p class="profile-country"></p>
+          <p class="profile-city"></p>
+          <button class="contact-button">Contact me</button>
+          <div class="contact-info" style="display: none;">
+            <p class="profile-email"></p>
+            <p class="profile-phone"></p>
+          </div>
+        </div>
+      </div>
+<footer>
+    <button id="load-more">Load more profiles</button>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
