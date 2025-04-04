@@ -1,7 +1,7 @@
 body {
     font-family: "Arial" ;
     text-align: center;
-    background-color: rgb(253, 246, 246);
+    background-color: rgb(247, 244, 244);
 }
 
 header {
@@ -71,7 +71,7 @@ footer {
       }
       
     .contact-button {
-        background-color: rgb(231, 225, 225);
+        background-color: white;
         border-radius: 8px;
         padding: 5px 30px;
         font-weight: bold;
@@ -84,7 +84,7 @@ footer {
 
     .contact-button:hover {
         box-shadow: 0 0 15px #8a8a8a;
-        background-color: white;
+        background-color: rgb(238, 234, 234);
     }
 
     .contact-info {
